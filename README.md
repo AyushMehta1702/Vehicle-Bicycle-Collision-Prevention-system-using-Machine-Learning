@@ -1,6 +1,17 @@
 
 # Bi-Cycle Detection using Machine Learning for Situation Awareness
 
+## Table of Contents
+- [Motivation](#motivation)
+- [Objective](#objective)
+- [Methodology](#methodology)
+- [Implementation](#implementation)
+- [Results and Evaluation](#results-and-evaluation)
+- [Conclusion](#conclusion)
+- [Future Work](#future-work)
+- [References](#references)
+- [Results Videos](#results-videos)
+
 ## Motivation
 
 With the growing global emphasis on healthy lifestyles and environmental protection, there has been a significant rise in the adoption of eco-friendly transportation, such as bicycles. However, the safety of cyclists sharing the road with vehicles is a pressing concern. The increasing number of accidents involving cyclists and vehicles highlights the need for intelligent systems that can aid in accident prevention and ensure safer bicycle-vehicle interactions. Cyclist safety remains a critical issue due to the severity of accidents when they share roads with vehicles. The main factors contributing to these accidents include inadequate visibility, improper vehicle maneuvers, and lack of cyclist awareness by drivers. This research addresses the urgent need to develop an intelligent system that can prevent accidents by detecting bicycles, analyzing vehicle-bicycle interaction scenarios, and aiding in decision-making to enhance road safety.
@@ -101,30 +112,35 @@ This research successfully developed a system that integrates lane detection, ob
 [7] Urban Bikeway Design Guide, Nacto. [Link](https://nacto.org/publication/urban-bikeway-design-guide/intersection-treatments/through-bike-lanes/)  
 [8] Computer Vision Zone, "Distance Estimation Figure". [Link](https://www.computervision.zone/lessons/code-and-files-13/)
 
-## Results
+## Results Videos
 ### Test on Real Videos
--**Overtaking the cyclist in the absence of parked vehicles on sides. No Lanes**
+**Overtaking the cyclist in the absence of parked vehicles on sides. No Lanes**
 ![Overtaking the Cyclist after analysing the situation and checking the possibility](results_gif/RealVidTest01.gif)
 
--**Real Scenario Test in complex situation**
-  -**Without Lane Detection Part**
+**Real Scenario Test in complex situation**
+  **Without Lane Detection Part**
   ![Without Lane](results_gif/RealVidTest02_01.gif)
   
-  -**With Lane Detection Part, Sunny Brightness affects worstly the Lane Detection**
+  **With Lane Detection Part, Sunny Brightness affects worstly the Lane Detection**
   ![Without Lane](results_gif/RealVidTest02_02.gif)
   
 ### Test on Scenarios made using IPG Carmaker software
-- **Right Hook (Safe distance > 7m)**  
-  ![Right Hook](results_gif/RHook.gif)
-  
-- **Overtake (Safe distance > 7m)**
-  ![Overtake](results_gif/Overtake.gif)
-  
-- **Solid Lane – Traffic (Safe distance > 7m)**
-  Vehicles cannot cross the Solid Lane according to Rules and Regulations, Hence Vehicle should stay behind the bicycle and cannot overtake untill the end of Solid Lane.
-  ![Solid Lane](results_gif/SolidLane.gif)
-  
-- **Shared Lane – Traffic (Safe distance > 7m)**
-  ![Shared Lane](results_gif/SharedLane.gif)
+**Right Hook (Safe distance > 7m).**
+
+![Right Hook](results_gif/RHook.gif)
+
+**Overtake (Safe distance > 7m).**
+
+![Overtake](results_gif/Overtake.gif)
+
+**Solid Lane – Traffic (Safe distance > 7m).**
+
+Vehicles cannot cross the Solid Lane according to Rules and Regulations, Hence Vehicle should stay behind the bicycle and cannot overtake untill the end of Solid Lane.
+
+![Solid Lane](results_gif/SolidLane.gif)
+
+**Shared Lane – Traffic (Safe distance > 7m).**
+
+![Shared Lane](results_gif/SharedLane.gif)
 
 
