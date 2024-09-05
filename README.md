@@ -108,7 +108,7 @@ This research successfully developed a system that integrates lane detection, ob
 ## Demo Videos
 
 - **Right Hook (Safe distance > 7m)**  
-  [![Watch the video](RightHook.mp4)
+  [![Watch the video](RHook.gif)
 - **Overtake (Safe distance > 7m)**
 - **Solid Lane – Traffic (Safe distance > 7m)**
 
