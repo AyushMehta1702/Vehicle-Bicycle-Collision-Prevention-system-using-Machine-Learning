@@ -1,5 +1,6 @@
 
 # Bi-Cycle Detection using Machine Learning for Situation Awareness
+### Computer Vision | Image Processing | ADAS | Machine Learning | Deep Learning | Software Development
 
 ## Table of Contents
 - [Motivation](#motivation)
